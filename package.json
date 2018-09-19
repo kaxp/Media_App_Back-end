@@ -1,0 +1,27 @@
+{
+  "name": "media-backend",
+  "version": "1.0.1",
+  "description": "The API for Media app backend data is created through this.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "deb": "nodemon --inspect app.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "keywords": [
+    "Node",
+    "Media",
+    "Back-end"
+  ],
+  "author": "Kapil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.15"
+  }
+}
